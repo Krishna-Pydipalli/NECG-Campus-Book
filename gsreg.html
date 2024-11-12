@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Guest registration page</title>
+<link rel="stylesheet" href="reg.css">
+</head>
+<body>
+<div class="hero">
+<div class="form-box">
+<div class="button-box"><div id="btn"></div>
+<button type="button" class="toggle-btn" onclick="register()">Register</button>
+<button type="button" class="toggle-btn" onclick="login()">Log In</button>
+</div>
+<center><div class="icon"><img src="rs.png"></div></center>
+<form id="register" class="input-group">
+<input type="text" class="input-field" placeholder="Student Name" required>
+<input type="email" class="input-field" placeholder="Email ID" required>
+<input type="text" class="input-field" placeholder="College Name" required>
+<input type="password" class="input-field" placeholder="Create Password" required>
+<input type="checkbox" class="check-box"><span>I agree to the Terms & Conditions!</span>
+<button type="submit" class="submit-btn">Register</button></form>
+<form id="login" class="input-group">
+<input type="text" class="input-field" placeholder="Email ID" required>
+<input type="password" class="input-field" placeholder="Password" required>
+<input type="checkbox" class="check-box"><span>Remember Password</span>
+<button type="submit" class="submit-btn">Log In</button>
+</form>
+
+</div>
+</div>
+<script>
+var x = document.getElementById("register");
+var y = document.getElementById("login");
+var z = document.getElementById("btn");
+
+function login()
+{
+x.style.left = "-400px";
+y.style.left = "50px";
+z.style.left = "110px";
+}
+function register()
+{
+x.style.left = "50px";
+y.style.left = "450px";
+z.style.left = "0";
+}
+</script>
+</body>
+</html>
+

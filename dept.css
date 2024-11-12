@@ -1,0 +1,60 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+.Dept
+{
+	width:1500px;
+	height:auto;
+}
+.Header
+{
+	width:1500px;
+	height:100;
+	border-style:groove;
+	margin-top:50px;
+	background-image:url("pic12.png");
+}
+.container
+{
+	width:1500px;
+	height:auto;
+	border-style:groove;
+	background-image:url("pic9.jpg");
+}
+
+.Deptof
+{
+	
+	width:1000px;
+	height:auto;
+	border-style:groove;
+	background-image:url("10.jpg");
+	
+	
+}
+.Deptof h1
+{
+	color:gray;
+}
+
+.content a
+{
+	color:white;
+	text-decoration:none;
+
+}
+.content a:hover
+{
+	
+	color:green;
+}
+
+.content .r17-ii-i,  .r17-ii-ii, .r15-iii-i, .r15-iii-ii, .r15-iv-i, .r15-iv-ii
+{
+	
+	background-image:url("pic10.jpg");
+
+}
